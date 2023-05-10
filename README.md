@@ -1,5 +1,9 @@
 # mkdocs-encryptcontent-plugin
 
+To install: 
+
+`pip install git+https://github.com/mhrons/mkdocs-encryptcontent-plugin`
+
 [![PyPI Version][pypi-v-image]][pypi-v-link]
 [![PyPI downloads](https://img.shields.io/pypi/dm/mkdocs-encryptcontent-plugin.svg)](https://pypi.org/project/mkdocs-encryptcontent-plugin)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
