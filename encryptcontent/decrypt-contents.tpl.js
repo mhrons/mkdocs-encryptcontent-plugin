@@ -236,9 +236,8 @@ function decrypt_action(password_input, encrypted_content, decrypted_content) {
         decrypted_content.innerHTML = content;
         // encrypted_content.parentNode.removeChild(encrypted_content);
         // any post processing on the decrypted content should be done here
-        {% if arithmatex -%}
-        if (typeof MathJax === 'object') { MathJax.typesetPromise(); };
-        {%- endif %}
+        MathJax.typesetPromise(); };
+        
         {% if mermaid2 -%}
         if (typeof mermaid === 'object') { mermaid.contentLoaded(); };
         {%- endif %}
